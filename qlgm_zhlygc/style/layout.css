@@ -1,0 +1,54 @@
+﻿.outWrapper{width:100%;height:auto;background:url(../images/zhly_bg.jpg) no-repeat scroll top center transparent;}
+.centerWrapper{width:1000px;height:auto;margin:0 auto;}
+.topBox{height:32px;width:100%;position:relative;overflow:hidden;}
+.topBox .btnBox{position:absolute;right:0;top:0;width:226px;height:32px;}
+.topBox .btnBox li{float:left;width:112px;height:34px;}
+.topBox .btnBox li a{display:inline-block;width:112px;height:34px;background:url(../images/btn/btn-c3.png)  no-repeat;}
+.topBox .btnBox li .btn_c3gwBg{ background-position: 0 0 ; }
+.topBox .btnBox li .btn_c3ltBg{ background-position: -112px 0 ;}
+.topBox .btnBox li .btn_c3gwBg:hover{background-position: 0 -34px ;}
+.topBox .btnBox li .btn_c3ltBg:hover{background-position: -112px -34px ;}
+/*倒计时 两按钮  start*/
+.contentBox1{height:400px;width:100%;position:relative;}
+.lastTime{width:640px;line-height:60px;position:absolute;left:20px;bottom:60px;text-align:center;font-size:36px;color:#FFF;}
+.rightBtnBox{width:284px;height:160px;position:absolute;right:0px;bottom:14px;}
+.rightBtnBox li{float:left;width:132px;height:160px;}
+.rightBtnBox li a{display:inline-block;width:132px;height:160px;background:url(../images/btn/btn_gc.png) no-repeat;}
+.rightBtnBox li .btn_gchdBg{ background-position: -132px 0 ;}
+.rightBtnBox li .btn_30mBg{background-position: 0 0 ; }
+.rightBtnBox li a.btn_gchdBg:hover{ background-position: -132px -160px ;}
+.rightBtnBox li a.btn_30mBg:hover{ background-position: 0 -160px;}
+/*选项卡  start*/
+.content2{width:100%;height:auto; }
+.yxts_bg{ width:960px;margin:0 auto;}
+.yxte_title{ width:956px;height:78px;margin-top:15px;padding-left:3px;}
+.yxts_pic_boder{ background:#1f1f1f; padding:1px; border:1px solid #0086a2;}
+.picTab1 li{float:left;width:191px;height:78px;cursor:pointer;}
+.picTab1 li a{display:inline-block;width:188px;height:78px;background:url(../images/btn/btn_xxk.gif)  no-repeat;}
+.picTab1 li a.one1{ background-position: 0 0; }
+.picTab1 li a.one2{ background-position: -188px 0 ; }
+.picTab1 li a.one3{ background-position:  -376px 0 ;}
+.picTab1 li a.one4{ background-position:  -564px 0 ;}
+.picTab1 li a.one5{ background-position:  -752px 0;}
+.picTab1 li a.one1:hover{ background-position: 0 -77px ;}
+.picTab1 li a.one2:hover{ background-position:-188px -78px ;}
+.picTab1 li a.one3:hover{ background-position: -376px  -77px ;}
+.picTab1 li a.one4:hover{ background-position: -564px -78px ;}
+.picTab1 li a.one5:hover{ background-position: -752px -77px;}
+.picTab1 li a.one1hover{ background-position: 0 -77px ;}
+.picTab1 li a.one2hover{ background-position:-188px -78px ;}
+.picTab1 li a.one3hover{ background-position: -376px  -77px ;}
+.picTab1 li a.one4hover{ background-position: -564px -78px ;}
+.picTab1 li a.one5hover{ background-position: -752px -77px;}
+/*选项卡内容样式*/
+.contBox{width:890px;height:auto;margin:auto;background:url(../images/index/bg_xxk_bg.jpg) repeat-x scroll center bottom ;}
+.contBox .contTitleBox{height:75px;width:100%;border-bottom:1px dotted #524747;text-indent:2em;text-indent:1.5em\9;}
+.contBox .contTitleBox h3{color:#DD6229;font-size:18px;font-family:Microsoft YaHei;padding-top:42px;display:block;}
+.contentBox p{color:#87795F;text-indent:2em;line-height:24px;margin-top:18px;}
+.bg_xxk_bg{width:1000px;height:30px;margin:0 auto;background:url(../images/bg_xxk_bg.jpg) no-repeat;z-index:1000;}
+/*底部版权*/
+.botCopyright{height:70px;width:1000px;background:#000;color:#8D7E71;position:relative;padding-top:10px;line-height:16px;}
+.botCopyright a{color:#8D7E71;}
+.copyImg{width:140px;height:45px;float:left;}
+.copyInfor{width:800px;height:45px;float:left;}
+.botCopyright .fzp{position;relative;top:38px;filter:alpha(opacity=80);-moz-opacity:0.8; opacity: 0.8;}

@@ -1,0 +1,37 @@
+/*----------ХыМе */
+.bg{width:100%;height:1670px; background:url(../images/bg.jpg)  top center no-repeat;}
+.centerBox{width:998px;height:auto;margin:0 auto; }
+.p1{height:416px;background:url(../images/shqj_bg.jpg) no-repeat bottom right;}
+.kong355{width:100%;height:355px;}
+.introText{height:63px;width:868px;padding:4px 10px 0 120px;color:#FFF;font-size:14px;line-height:24px;}
+.p2{height:474px;}
+.p3{ background:url(../images/banner_1.jpg) no-repeat transparent;height:180px;width:998px;position:relative;}
+.p3 .imgBox{float:left;width:500px;hoverflow:hidden;position:absolute;}
+.p3_rightBox{width:280px;height:180px;float:right;background:pink;}
+.p3_rightBox ul{margin-top:12px;width:140px;}
+.p3_rightBox a{color:#FFF;font:bold 18px/30px Arial, Helvetica, sans-serif;}
+.p3_rightBox .liTitle{height:auto;padding-top:18px;float:left;width:16px;z-index:1000;position:relative;}
+.p3_rightBox .liTitle h2{font-size:14px;color:#DDD;font-weight:bold}
+.p3_rightBox .liContentBox{width: 230px;height:180px;float:right;position:absolute;top:0;right:0;}
+.p3_rightBox .liConText{padding-right:10px;padding-top:30px;height:150px;color:#FFF;text-indent:2em;}
+.p4{margin-top:17px;height:125px;overflow:hidden;}
+.p5{margin-top:17px;height:180px;position:relative;overflow:hidden;}
+.p5_leftBox{width:768px;float:left;position:absolute;overflow:hidden;*top:-20px;}
+.p5_leftBox li{position:relative;}
+.p5_leftBox li img{z-index:100;width:769px;height:180px;display:block;}
+.p5_leftBox .num{position:absolute;left:0;top:0;visibility:hidden;}
+.p5_leftBox .num li{line-height:45px; cursor:pointer;}
+.on{background:black;color:#FFF;}
+.p5_leftBox .txtDes{position:absolute;background:#161717;top:140px;*top:150px;left:0px;z-index:200;line-height:34px;width:716px;color:#FFF;padding-left:50px;font-size:16px;}
+.p5_rightBox{width:230px;height:180px;float:right; background:url(../images/wyzc_bg.jpg) no-repeat;}
+.rightTop{height:60px;padding:12px 8px 12px 16px;}
+.rightTop span{font-size:12px;font-family:NSimSun;color:#FFF;}
+.bottom_btn{width:194px;height:85px;margin:0 auto;}
+.p6{margin-top:20px;}
+.p6 img{width:998px;display:block;}
+.p7{padding-left:260px;color:#FFF;position:relative;margin-top:30px;_margin-top:20px;}
+.p7 img{position:absolute;left:120px;top:4px;display:block;}
+.p7 a{color:#FFF;}
+.p7 a img {visibility:hidden;}
+
+

@@ -1,0 +1,65 @@
+/*整体样式  start*/
+.topMenuBox{width:100%;height:auto;}
+.outWrap{background:url(../images/total_bg.jpg) no-repeat scroll top center transparent;width:100%;;height:auto;}
+.centerWrap{width:1000px;height:auto;margin:0 auto;position:relative;}
+/*内容样式*/
+/*.headBox   start*/
+.headBox{height:305px;width:100%;}
+.innerHeadBox{padding-top:176px;position:relative;}
+.dlbBox{width:386px;float:right;}
+#dlbBox1{}    /* 大礼包，输入手机号*/
+#dlbBox1 .topText,#dlbBox3 .topText{line-height:42px;color:#FFF;font-size:14px;font-weight:bold}
+#dlbBox1 .botBox,#dlbBox3 .botBox{height:30px;}  /*front made by wpq*/
+#dlbBox1 .botBox input,#dlbBox2  #btn_cgqd{height:22px;border:none;line-height:22px;vertical-align:top;}
+.dlbBox input#txtBox_sjh{width:200px;padding:0 5px;height:21px;line-height:21px;height:18px\9;line-height:18px\9;}
+.dlbBox input#btn_qd,#dlbBox2  #btn_cgqd{width:62px; background:url(../images/btn_qd.gif) 0 0 no-repeat;text-indent:-3000px;cursor:pointer;}
+#dlbBox2{display:none} 
+#dlbBox2 .dlbInBox{height:30px;width:320px;color:#ffd220;font-size:14px;padding-top:6px;font-weight:bold;} 
+#dlbBox2 .dlbInBox a{color:#FFF}  
+/*.centerBox   start*/
+.centerBox{height:420px;position:relative;}
+.activeBox{cursor:pointer;background:url(../images/p2.png) 0 0 no-repeat;}
+.activeBox{float:left;position:relative;margin-right:8px;z-index:100;}
+.activeBoxHover{background:black;}
+.activeInnerBox,.activeBoxHover{width:100%;height:100%;}
+.actInBoxHover{padding:6px}  /*front made by wpq*/
+#activeBox01{width:138px;height:420px; background-position:0 0;overflow:hidden;}
+#activeBox01Hover .actInBoxHover{padding:6px 2px 6px 4px;}
+.actInBoxHover h4{font-weight:bold;color:#C36DFF;}
+.actInBoxHover .activeCont{color:#FFF;line-height:16px\9;}
+#activeBox02{width:152px;height:400px;background-position:-152px 0px;}
+#activeBox03{width:156px;height:360px;background-position:-310px 0px;}
+#activeBox04{width:246px;height:298px;background-position:-472px 0px;}
+.activeTitle{width:14px;font-size:14px;color:#FFF;font-weight:bold;text-align:center;position:absolute;line-height:18px;}
+#activeTitle01{top:128px;left:36px;}
+#activeTitle02{top:90px;left:44px;}
+#activeTitle03{top:56px;left:46px;}
+#activeTitle04{width:224px;line-height:28px;top:142px;left:12px;text-align:center;}
+/*.flashBox  start*/
+.flashBox{height:434px;position:absolute;top:260px;right:0;z-index:100;width:100%;overflow:hidden;z-index:40;}
+.btnT0Box{position:absolute;width:100%;height:13px;right:0;bottom:0;overflow:hidden;text-align:right;}
+.btnT0Box a{display:block;width:25px;height:13px;margin-right:6px;text-indent:-3000px;float:right;background:#FFF;display:inline;}
+.btnT0Box #btnToUp{ background:url(../images/slideitmoo_back.gif) 0 0 no-repeat;}
+.btnT0Box #btnToBot{background:url(../images/slideitmoo_forward.gif) 0 0 no-repeat;}
+.flashInnerBox{position:absolute;left:16px;z-index:50;}  
+#flaIBox_btn{width:200px;}
+.bottomBox{height:287px;}
+/*最底部信息  start*/
+.botCopyBox{width:100%;background:none;} 
+.botInnerCopyBox{ width:1000px;height:70px; color:#878787; line-height:16px;margin:0 auto;color:#FFF}
+.bICenterCopyBox{background:url(../images/70yx_logo.png) no-repeat 0px 10px transparent;padding:10px 0px 0px 150px;width:584px;margin:0 auto;}
+.botCopyBox a{ color:#FFF;}
+.botCopyBox a img{position:relative;top:-4px;}
+/*弹出层样式*/
+.white_content { display: none; position: absolute; bottom: 20%; left: 25%; width: 50%; z-index:1002; overflow: hidden;}
+.black_overlay{  display: none;  position: absolute;  top: 0%;  left: 0%;  width: 100%;  height:1120px;  background-color: black;  z-index:1001;  -moz-opacity: 0.65;  opacity:.65;  filter: alpha(opacity=65);}
+.conBox{width:651px;height:auto;margin: 0 auto; }
+.titleBox {text-align:center;font-size:16px;font-weight:bold;color:#FFC600;background:url(../images/popTop.jpg) 0 0 no-repeat;line-height:60px;height:60px;}
+.popCont{text-indent:2em;width:100%;height:auto;background:url(../images/popCen.jpg) 0 0 repeat-y;color:#FFF;padding-bottom:15px;}
+.popInnerCont1{width:472px;padding:6px;margin:0 auto;}
+.popInnerCont2{width:472px;border:3px solid #A92121;background:#390000;margin: 0 auto;padding:6px}
+.popBot{width:100%;height:22px;background:url(../images/popBot.jpg) 0 bottom no-repeat;}
+.close { float:right; clear:both; width:100%; text-align:right; margin:0 0 6px 0;}
+.close a { color:#333; text-decoration:none; font-size:14px; font-weight:700}
+.con { text-indent:1.5pc; line-height:40px}
+

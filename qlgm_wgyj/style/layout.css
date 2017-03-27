@@ -1,0 +1,103 @@
+﻿/*整体样式  start*/
+.outWrap{ background:url(../images/totalBg.jpg) no-repeat scroll top center transparent;width:100%;;height:auto;}
+.centerWrap{width:1000px;height:auto;margin:0 auto;}
+/*顶部     start*/
+.topBox{width:100%;height:auto;}
+.topKong{height:180px;width:100%;}
+.topContBox{height:335px;width:100%;}
+/*.topLeftBox    start*/
+.topLeftBox{width:329px;float:left;background:#FFF;overflow:hidden;}
+/*.loginBox   start*/
+#l_t1{width:100%; height:33px;position:relative;z-index:100;overflow:hidden;}
+#l_t1 a{text-indent:-4000px;width:164px; height:33px; /*display:inline-block;*/text-decoration:none;float:left;  }
+#l_t1 a.lbtn_dl{background:url(../images/two1.png) 0px 0px no-repeat; }
+#l_t1 a.lbtn_zc{background:url(../images/two2.png) 0px 0px no-repeat; }
+.loginBox{position:relative;background:url(../images/loginBg.jpg) right top no-repeat;} /* 未登录框  */ 
+.loginBox .loginInnerBox{width:100%;height:226px;float:left;position:relative;  }
+#login_bg1{ background:url(../images/login_bg1.png) no-repeat 0px 100px; padding:10px 0px 0px 10px; width:250px; height:218px;position:relative;left:40px;}
+#login_bg1 input{width:130px;height:28px;line-height:28px;*height:20px;*line-height:10px;}
+#login_bg1 tr{height:30px;}
+#login_bg1 #yzmtr img{position:absolute;top:75px;right:31px;*top:85px;}
+.srk_01{ background:url(../images/login_bg2.png) no-repeat 0px 4px;   padding:0px 5px 0px 25px; *height:15px; *padding:10px 5px 0px 25px; border:1px solid #cbcbcb;}
+.srk_02{ background:url(../images/login_bg2.png) no-repeat 0px -40px;padding:0px 5px 0px 25px; *padding:10px 5px 0px 25px; border:1px solid #cbcbcb;}
+a.btn_dl{background:url(../images/btnTotal.jpg) 0 0 no-repeat;display:inline-block;width:120px;height:30px;line-height:30px;color:#FFF;text-align:center;text-decoration:none;}
+a.btn_dl:hover{background:url(../images/btnTotal.jpg) 0 -32px no-repeat;}
+.btn_dldd{background:url(../images/btnTotal.jpg) 0 0 no-repeat;display:inline-block;width:120px;height:30px;line-height:30px;color:#FFF;text-align:center;text-decoration:none;}/*--lzhao--*/
+#login_bg1 #textfield3{width:40px;_background:url(../images/login_bg2.png) no-repeat 0px -40px;}
+a.link_blue{color:#00A2FF;margin-left:50px;}
+/*receiveLogin   start*/
+/*topBtnBox   start*/
+.topLeftBox .topBtnBox{width:100%;height:34px;overflow:hidden;}
+.topLeftBox .topBtnBox ul li{float:left;}
+.topLeftBox .topBtnBox ul li a{display:inline-block;width:81px;line-height:34px;height:33px;border-right:1px solid #88B72F; background:url(../images/topBtnBg.jpg) 0 0 repeat-x;color:#FFF;text-align:center;font-size:14px;font-weight:bold;text-decoration:none;}
+.topLeftBox .topBtnBox ul li a:hover{background:url(../images/topBtnBg.jpg) 0 -33px; repeat-x;}
+.receiveLogin{display:none}      /*已登陆框*/
+.receiveLogin .LoginCenterBox{height:226px; background:url(../images/loginBg.jpg)right top no-repeat;}
+.receiveLogin .loginOutBox{height:52px;line-height:52px;font-size:14px;line-height:52px;padding-left:24px;}
+.receiveLogin .userNameBox,.receiveLogin .loginoutBtn{float:left;width:160px;height:52px;line-height:52px;}
+.receiveLogin .loginoutBtn{width:60px;height:30px;position:relative;}
+.receiveLogin .userName{color:#00A2FF;}
+.receiveLogin .loginoutBtn a{ background:url(../images/btnTotal.jpg) 0 0 no-repeat;display:inline-block;width:81px;height:30px;line-height:30px;position:absolute;top:14px;color:#FFF;padding-left:40px;text-decoration:none;}
+.receiveLogin .loginoutBtn a:hover{background:url(../images/btnTotal.jpg) 0 -33px no-repeat;}
+.receiveLogin .myGameBox {height:auto;width:100%;}
+.receiveLogin .myGameBox p{height:24px;line-height:24px;padding-left:18px;}
+.receiveLogin .myGameBox .left{display:inline-block;width:200px;}
+.receiveLogin .myGameCont{color:#00A2FF}
+.receiveLogin .myGameBox p#friendLinks{text-align:center;height:32px;line-height:32px;padding-left:0;}
+.receiveLogin .myGameBox p#friendLinks a{display:inline-block;width:70px;line-height:32px;color:#00A2FF}
+.receiveLogin .myGameBox .myGameBoxh4{border-top:1px dotted #AAAAAA;border-bottom:1px dotted #AAAAAA;line-height:30px;text-align:left;padding-left:23px;background:#F7F7F7;;}
+
+/*accessBox   start*/
+.accessBox{width:100%;height:74px; background:url(../images/accessBg.jpg) 0 0 no-repeat;position:relative;}
+.accessBox .textBox{position:absolute;width:204px;height:74px;right:0;top:0;}
+.accessBox .textBox p{line-height:24px;color:#175A00;}
+.accessBox .textBox .colorWhite,.accessBox .textBox .time{color:#FFF}
+.accessBox .textBox .time{color:#FFF}
+.accessBox .textBox1{position:absolute;height:24px;line-height:24px;width:95%;bottom:0;left:10px;color:#325901;}
+.accessBox .textBox1 .servicePhone{display:block;width:160px;float:left;}
+.accessBox .textBox1 .VipHot{}
+/*.demoBox  公用背景*/
+.demoBox .innerContBox,.botBox .liFuBox .innerContBoxNew,.botBox .liFuBox .innerContBoxNormal,.botBox .liFuBox .innerContBoxNormal01{background:url(../images/demoBgHe.jpg) no-repeat;}
+/*topRightBox   start*/
+.topRightBox{width:662px;float:right;}
+.demoBox{ background:url(../images/demoBg.jpg) 0 0 no-repeat;width:660px;height:160px;position:relative;}
+.topRightBox #wdfwq{margin-top:14px;}
+.demoBox .titleBox{line-height:40px;} 
+.demoBox .titleBox h3{display:block;font:bold 14px/42px Arial;padding-left:22px;color:#00A2FF;width:300px;float:left;}
+.demoBox .rightTitle{float:right;margin-right:1em;color:#FFF；display:block;}
+.demoBox .rightTitle a{color:#FFF;text-decoration:none;}
+.demoBox .innerContBox{width:300px;height:53px;position:absolute; background-position:0 0;}
+.demoBox #innerContBox_left{left:23px;top:72px;}
+.demoBox #innerContBox_right{left:344px;top:72px;}
+ .innerContBox .ContDescrip{height:24px;line-height:24px;line-height:24px;}
+.demoBox .innerContBox h4,.botBox .liFuBox h4{line-height:28px;height:22px;padding-left:34px}
+.demoBox .innerContBox span,.botBox .liFuBox span{display:inline-block;line-height:22px}
+.demoBox .innerContBox .hbzsTitle,.botBox .liFuBox .hbzsTitle{padding-left:20px}
+.demoBox .innerContBox .hbzsCont,.botBox .liFuBox .hbzsCont{width:60px;height:20px;display:inline-block;margin-left:10px;}
+.demoBox .innerContBox .hot,.ContDescrip .hot{width:32px;height:20px;display:inline-block;margin-right:10px;}
+.demoBox .innerContBox .zskq a,.botBox .liFuBox .zskq a{font-weight:bold;color:#555555}
+/*底部内容 .botBox    start */
+.botBox{width:100%;height:auto;margin-top:12px; background:#FFF;}
+.botBox h3{font:bold 14px/41px Arial;color:#89D507; background:#89D926 url(../images/btTitleBg.jpg) center top no-repeat;text-align:center;}
+.botBox .titleBox{height:51px;width:100%;background:#FFF;position:relative;border-bottom:1px solid #82B70D;}
+.botBox .titleBox .leftTitleBox{width:322px;height:28px;position:absolute;;left:0;line-height:30px;bottom:8px;_bottom:-4px;}
+.botBox .titleBox .leftTitleBox span,.botBox .titleBox .leftTitleBox a{display:inline-block;}
+.botBox .titleBox .leftTitleBox .ksxf{width:80px;text-align:right;color:#F00;font-weight:bold;}
+.botBox .titleBox .leftTitleBox .fwq{margin-left:14px;border:1px solid #CBCBCB;width:84px;padding:0 4px;font-size:14px;height:28px;text-decoration:none;line-height:28px;}
+.botBox .titleBox .leftTitleBox a.enterGame{background:url(../images/btnTotal.jpg) 0 0 no-repeat;display:inline-block;color:#FFF;text-decoration:none;width:122px;height:30px;line-height:30px;text-align:center;margin-left:2px;position:absolute;top:0;right:0;font-size:14px;}
+.botBox .titleBox .leftTitleBox a.enterGame:hover{background:url(../images/btnTotal.jpg) 0 -32px no-repeat;}
+.botBox .titleBox .rightTitleBox{width:650px;height:39px;position:absolute;right:0;line-height:39px;top:14px;}
+.botBox .titleBox .rightTitleBox li{float:left;}
+.botBox .titleBox .rightTitleBox a{display:inline-block;width:84px;line-height:39px;text-align:center;text-decoration:none;}
+.hover{background:url(../images/btnTotal.jpg) 0 -66px no-repeat;display:inline-block;width:84px;line-height:39px;text-align:center;}
+.botBox .liFuBox{width:100%;height:auto;background:#FFF;position:relative;overflow:hidden;padding-bottom:10px;display:none;}
+.botBox .liFuBox .innerContBoxNew,.botBox .liFuBox .innerContBoxNormal,.botBox .liFuBox .innerContBoxNormal01{width:300px;height:53px;float:left;margin:10px 4px 0px 22px;display:inline;}
+.botBox .liFuBox .innerContBoxNew{background-position:0 -54px;}
+.botBox .liFuBox .innerContBoxNormal{background-position:0 -110px;}
+.botBox .liFuBox .innerContBoxNormal01{background-position:0 -166px;}
+
+/*最底部信息  start*/
+.botCopyBox{ width:100%;border-top:10px solid #89D507;height:80px;overflow:hidden;background:#FFF;} 
+.botInnerCopyBox{background:#FFF url(../images/70yx_logo.png) no-repeat 0px 10px;width:850px; height:70px; padding:10px 0px 0px 150px;color:#878787; line-height:16px;margin:0 auto;}
+.botCopyBox a{ color:#878787;}
+.botCopyBox img{position:relative;top:-4px}

@@ -1,0 +1,39 @@
+/* CSS Document */
+/*整体样式  start*/
+.topMenuBox{width:100%;height:auto;}
+.outWrap{background:url(../images/total_bg.jpg) no-repeat scroll top center transparent;width:100%;;height:auto;}
+.centerWrap{background:url(../images/center_bg.jpg) no-repeat scroll top center transparent;width:866px;height:auto;margin:0 auto;}
+
+.topBox{width:100%;height:270px;}
+.centerBox{width:100%;height:634px;position:relative;_left:96px;}
+.active{color:#FFBB19;height:42px;line-height:42px;font-size:14px;font-weight:bold;}
+.centerBox p{color:#FFF;line-height:24px;}
+.leftBarBox{width:550px;height:600px;float:left;}
+.leftBarBox .leftInnerBarBox{width:490px;}
+
+.rightBarBox{width:308px;position:absolute;height:300px;right:6px;top:0;_right:-2px;}
+.rtBtn{width:100%;height:160px;}
+.rtBtn a{ width:318px;height:160px;display:block;background:url(../images/btn_bm.jpg) 0 0 no-repeat;text-indent:-5000px;}
+.rtBtn a:hover{background:url(../images/btn_bm.jpg) 0 -160px no-repeat;}
+.botBox{width:308px;height:auto;padding-top:28px;}
+.botBox .botInnerBox{width:268px;padding-left:20px;padding-right:10px;}
+
+/*弹出层样式*/
+.con a{position:absolute;right:10px;color:#FFF;top:10px;}
+.white_content { display: none; position: absolute; top: 10%; left: 25%; width: 50%; padding:16px 20px 0px 0px; color:#163954;z-index:1002; overflow: auto;}
+.black_overlay{  display: none;  position: absolute;  top: 0%;  left: 0%;  width: 100%;  height:1040px;  background-color: black;  z-index:1001;  -moz-opacity: 0.8;  opacity:0.80;  filter: alpha(opacity=80);}
+.close { width:100%; text-align:right; margin:0 0 6px 0;}
+a.closeBtn{ color:#333; text-decoration:none; font-size:14px; font-weight:700}
+a.closeBtn:hover{text-decoration:none;}
+.con { position:relative;width:338px;height:715px;margin:0 auto; background:url(../images/popBg.png) 0 0 no-repeat;color:#FFF;padding:50px 0 0 22px;overflow:hidden;}
+.con .popTr{height:48px;}
+.con .popPreSpan{width:110px;display:inline-block;}
+.con input{width:194px;height:22px;line-height:22px; overflow:hidden; background:url(../images/input_bg.png) 0 0 no-repeat;border:none;}
+input#subBtn{border:none;width:126px;height:40px;text-align:center;line-height:32px;cursor:pointer;margin-left:96px;font-weight:bold;font-size:14px;background:url(../images/btn_submit.jpg) 0 0 no-repeat;}
+span#hyz{margin-left:114px;}
+input#yzmInput{width:90px;;}
+img#yzmImg{position:relative;top:6px;left:4px;}
+/*最底部信息  start*/
+.botCopyBox{width:100%;height:auto;} 
+.botInnerCopyBox{background:url(../images/70yx_logo.png) no-repeat 0px 25px; width:850px;height:70px; padding:25px 0px 0px 150px;color:#FFF; line-height:16px;margin-left:60px;position:relative;_left:100px;}
+.botCopyBox a{ color:#FFF;}

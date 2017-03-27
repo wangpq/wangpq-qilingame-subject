@@ -1,0 +1,56 @@
+﻿/* CSS Document */
+#contentWrapper{background:url(../images/gc_bg.jpg) no-repeat scroll top center transparent;width:100%;;height:1100px;}
+#contentBox{width:1000px;height:1100px;margin:0 auto;}
+#linkWrap{height:41px;width:100%;position:relative;}
+#linkBox{height:35px;width:218px;float:right;padding-top:7px;}
+#linkBox img{display:block;float:left;}
+/*顶部按钮样式   start*/
+#cont1{height: 72px;width:100%;margin-top:212px;position:relative;}
+#last_time{width:254px;height:72px;float:left;}
+#limit_time{padding-left:35px;line-height:30px;position:absolute;bottom:8px;left:14px;font-size:14px;color:#FFF;*bottom:5px;_bottom:16px;}
+#btn2Box{width:600px;float:left;height:auto;}
+#btn2InnerBox{}
+#img_cpxc,#img_30qz{position:relative;top:-4px;}
+#img_30qz{top:-3px;left:-6px;}
+#btn2Box #btn2InnerBox a{display:inline-block;}
+#btn2InnerBox img{display:block}
+/*中间 内容切换showContentBox  start*/
+.showContentBox{position:relative;margin-top:12px;height:auto;}
+.Tab1Title,.tab1 ul{ width:244px;height:auto;}
+#leftTab1Title{position:absolute;top:-8px;left:10px;_left:-250px;_top:-18px;}
+#rightTab1Title{position:absolute;top:-8px;right:13px;_top:-18px;}
+.Tab1Title li{ height:122px; width:244px; cursor:pointer}
+/*.Tab1Title li.normal span,.Tab1Title li.active span{ display:inline-block; height:116px; width:238px;overflow:hidden;background: url(../images/btn.png) no-repeat;}   这样写在Safary浏览器里面不兼容*/
+.Tab1Title li.normal span,.Tab1Title li.active span{ display:inline-block; height:116px; width:238px;overflow:hidden;}
+.Tab1Title li.normal span,.Tab1Title li.active span{background: url(../images/btn.png) no-repeat;}
+.Tab1Title li.normal span#btn-wzpks{background-position:-240px -1px ;}
+.Tab1Title li.normal span#btn-nmdy{background-position:-240px -110px}
+.Tab1Title li.normal span#btn-zxlj{background-position:-240px -230px}
+.Tab1Title li.normal span#btn-zyzp{background-position:-240px -345px}
+.Tab1Title li.normal span#btn-jjvip{background-position:-240px -456px}
+.Tab1Title li.normal span#btn-zchk{background-position: -240px -576px }
+.Tab1Title li.normal span#btn-viptq{background-position:-240px -690px }
+.Tab1Title li.normal span#btn-jqqd{background-position:-242px -805px  ;}
+.Tab1Title li.normal span#btn-sznjl{background-position:-240px -920px;}
+.Tab1Title li.normal span#btn-wzzbs{background-position:-240px -1035px;}
+
+.Tab1Title li.active span#btn-wzpks{background-position: 0 -1px;}
+.Tab1Title li.active span#btn-nmdy{background-position: 0 -112px }
+.Tab1Title li.active span#btn-zxlj{background-position: 0 -230px}
+.Tab1Title li.active span#btn-zyzp{background-position: 0 -345px}
+.Tab1Title li.active span#btn-jjvip{background-position: 0 -456px}
+.Tab1Title li.active span#btn-zchk{background-position: 0 -575px }
+.Tab1Title li.active span#btn-viptq{background-position: 0 -690px }
+.Tab1Title li.active span#btn-jqqd{background-position: -1px -805px }
+.Tab1Title li.active span#btn-sznjl{background-position: 0 -920px }
+.Tab1Title li.active span#btn-wzzbs{background-position: 0 -1035px}
+/*中间 内容切换showContentBox里面类容样式  start*/
+.TabContent{width:480px;height:600px;margin:0 auto;position:relative;}
+.TabContent .myTab_Content{padding:18px;}
+.titleWrap{height:auto;font-size:14px;color:#FFF;font-weight:bold;line-height:56px;}
+#activeNameTit{margin-top:10px;}
+#description .descriptContent{text-indent:5em;font-size:12px;line-height:18px;font-weight:normal;}
+/*底部版权 footer  start*/
+#footer{width:700px;height:80px;padding-left:300px;color:#FFF;margin-top:85px;}
+#footer a{color:#FFF}
+
